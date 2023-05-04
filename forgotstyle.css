@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Open Sans ";
+    color: #fff;
+}
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url(./logosports.jpg)no-repeat ;
+    min-height: 100%;
+    min-width: 100%;
+    background-size:auto;
+    background-image: -webkit-image-set();
+    background-size: cover;
+    background-position: center center;
+    
+}
+.top-container{
+    width: 10%;
+    height: 2px;
+    padding: 1px;
+    size: 14%;
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(0, 0, 0, 0.425),rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow:7px 7px 60px #474646;
+    text-decoration-color: #fff;
+    color: #fff;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    margin-block-end: 1em;
+    margin: bottom 10em; 
+}
+/* navbar */
+
+.navbar .getstarted {
+	background: #106eea;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+}
+.text{
+  color: red;
+}
+.navbar-nav a {
+	font-size: 15px;
+	font-family: serif;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-nav li{
+  padding-left: 30px;
+  padding-right: 30px;
+  
+}
+a:hover{
+  border: 1px solid red;
+  transition: .5s;
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.portfolio .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.services .card-body i {
+	font-size: 50px;
+}
+.team .card-body i {
+	font-size: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		bottom: 370px;
+	}
+	.carousel-caption p {
+		width: 100%;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+	.img-area img {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.carousel-caption {
+		bottom: 125px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+	.about-text {
+		padding-top: 50px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+}
+
+
+/* navbar ends */
+.control input{
+    width: 100%;
+    display: block;
+    padding:10px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+.control input[type="submit"]{
+    background: rgb(210, 16, 16);
+    color:#f8f5f5;
+    text-tranform: uppercase;
+    font-size: 1.2em;
+    opacity:.9;
+    transition :opacity .3s ease ;
+
+}
+.control input[type="submit"]:hover{
+    opacity: 1;
+
+
+}
+.link{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color:#fbf7f7;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+.link a:hover{
+    opacity: 1;
+}

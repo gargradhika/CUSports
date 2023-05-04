@@ -1,0 +1,175 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+*,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+  font-family: serif;
+  list-style: none;
+
+
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(255, 51, 51);
+    position: fixed;
+    width: 100%;
+
+}
+
+.navbar-brand {
+    color: white;
+    text-decoration-color: white;
+    font-family: sans-serif;
+
+}
+
+.nav-item {
+    color: white;
+    text-emphasis-color: white;
+    padding-right: 40px;
+
+
+}
+
+.nav-link {
+    color: white;
+    text-decoration-color: white;
+    text-emphasis-color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+}
+
+.nav-link:hover {
+    color: black;
+
+}
+
+.header .nav li:hover a,
+.header .nav li :active a {
+    color: white;
+    background-color: rgb(23, 21, 21);
+
+}
+
+.header .nav li a {
+    margin-left: 5px;
+
+}
+
+.header .nav li .dropdown {
+    background: white;
+    width: 220px;
+    border-radius: 10px;
+    position: absolute;
+
+    left: 0;
+    z-index: 90;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    margin: 0;
+}
+
+.header .nav li:hover .dropdown {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.header nav li .dropdown li {
+    float: none;
+    margin: 0;
+
+
+}
+
+.header nav li .dropdown li a {
+    margin: 0;
+    padding: 8px;
+    color: white;
+    border-bottom: 1px solid rgb(47, 45, 45);
+    display: block;
+    font-weight: 400;
+    text-transform: capitalize;
+    background: 0 0;
+
+}
+body{
+    font-family: "Open Sans ";
+    color: #fff;
+}
+section{
+    position: relative;
+    height: 80vh;
+    width: 80%;
+    background: url(./logosports.jpg)no-repeat ;
+    min-height: 100%;
+    min-width: 100%;
+    background-size:auto;
+    background-image: -webkit-image-set();
+    background-size:cover;
+    background-position: center center;
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(0, 0, 0, 0.425),rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow:7px 7px 60px #474646;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin: bottom 2em; 
+}
+.control input{
+    width: 100%;
+    display: block;
+    padding:10px;
+    color: #0c0c0c;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+.control input[type="submit"]{
+    background: rgb(210, 16, 16);
+    color:#f8f5f5;
+    
+    font-size: 1.2em;
+    opacity:.9;
+    transition :opacity .3s ease ;
+
+}
+.control input[type="submit"]:hover{
+    opacity: 1;
+
+
+}
+.link{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color:#0e0000;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+.link a:hover{
+    opacity: 1;
+}
